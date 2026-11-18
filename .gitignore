@@ -1,0 +1,20 @@
+# 키·환경
+.env
+.venv/
+__pycache__/
+logs/
+.claude/
+
+# 내부 작업 문서
+docs/_internal/
+docs/PLAN.md
+
+# 제주데이터허브 원본·가공 데이터는 공개 저장소에 재배포하지 않음
+data/raw/
+data/external/
+data/processed/*.csv
+data/processed/*.json
+# (data/processed의 그림 *.png, charts/*.png 와 docs/images는 올림)
+
+# 기획서 Word 파일은 제외, PDF만 올림
+docs/PROPOSAL.docx
